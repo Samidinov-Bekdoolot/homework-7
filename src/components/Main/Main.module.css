@@ -1,0 +1,99 @@
+.mainPage {
+  background-color: #edf5d1;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.mainPage nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+h3{
+  color: rgb(112, 195, 216);
+}
+
+.mainPage nav ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.mainPage nav ul li {
+  margin-right: 15px;
+  font-size: 15px;
+}
+
+.mainPage nav ul li:first-child {
+  border-bottom: 2px solid rgb(63, 60, 60);
+}
+
+.mainPage nav ul li:hover{
+  border-bottom: 2px solid rgb(63, 60, 60);
+  cursor: pointer;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+	color: #fff;
+	text-decoration: none;
+	transition: background-color .2s linear;
+	border-radius: 50px;
+	padding-top: 20px;
+  background-color: rgb(112, 195, 216);
+	width: 200px;
+  cursor: pointer;
+}
+
+.mainBlock {
+    display: flex;
+    justify-content: space-between;
+}
+.firstBlock{
+  padding-top: 100px;
+}
+.firstBlock p{
+  padding-top: 50px;
+  line-height: 40px;
+}
+.buttons {
+  margin:auto;
+  padding-top: 40px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.buttons a:first-child{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 10px;
+	color: #fff;
+  background-color: #F9B640;
+	text-decoration: none;
+	border-radius: 5px;
+	width: 120px;
+	text-align: center;
+
+}
+.buttons a{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 10px;
+	color: #F9B640;
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 7px;
+	width: 120px;
+	text-align: center;
+
+}
+
+.cards p{
+  color: #bfc0bb;
+  font-size: 15px;
+  text-align: center;
+}
